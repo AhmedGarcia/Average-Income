@@ -9,41 +9,33 @@ let addEmployees = true;
 let employeesArray = [];
          
  while(addEmployees) {
-  
-  // if (prompt.!addEmployees) {
-  // window.confirm("Thank You!")
-  //  return;
-  // }
+  const employee =true
+    let fName = window.prompt("Enter First Name:");
+    let lName = window.prompt("Enter Last Name:");
+    let income = parseInt(window.prompt("Enter Salary:"));
+  employee= fName, lName, income;
 
-    let firstName = window.prompt("Enter First Name:");
-    // employeesArray.employee[0].firstNamedc
-    let lastName = window.prompt("Enter Last Name:");
-    let salary = parseInt(window.prompt("Enter Salary:"));
-
-    if (isNaN(salary)) {
+  if (isNaN(salary)) {
+      // salary= 0;
       window.alert("Please enter a number.");
       parseInt(window.prompt("Enter Salary:"));
     }
-    // run.employeesArray.unshift(firstName, lastName, salary);
-addEmployees = window.confirm("Would you like to add another employee?");
-  //  if (addEmployees = true);
-  }
+
+  employee.employeesArray.push(firstName = fName[0] , lastName= lName[0] , income = salary[0])
+
+  addEmployees = window.confirm("Would you like to add another employee?");
+   if (!addEmployees) {
+    return;
   
-  // let userInput = window.prompt("Enter first  name:")
-  //  employeesArray.firstName++;
-  //  userInput = window.prompt("Enter last name:")
-  //  employeesArray.lastName++;
-  //  userInput = window.prompt("Enter last salary:")
-  //  employeesArray.salary++;
+}
 
-
-  // document.querySelector.#add-employees-btn++;
-  // window.prompt("Enter secondemployee name:")
-  // document.querySelector.#add-employees-btn++;
-  // window.prompt("Enter third employee name:")
-  // document.querySelector.#add-employees-btn++;
-
-} 
+//  displayEmployees()
+ // if (prompt.!addEmployees) {
+  // window.alert("Thank You!")
+  //  return;
+  // }
+}
+}
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
