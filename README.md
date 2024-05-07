@@ -27,4 +27,6 @@ The following images show the web application's appearance and functionality:
 
 ```md
 GitHub Repository link: https://github.com/AhmedGarcia/Average-Income
-Github deployed live page link: 
+
+Github deployed live page link: https://ahmedgarcia.github.io/Average-Income/ 
+```
